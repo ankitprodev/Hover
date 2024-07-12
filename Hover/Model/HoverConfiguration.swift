@@ -55,7 +55,7 @@ public struct HoverConfiguration {
                 imageSizeRatio: CGFloat = 0.4,
                 padding: UIEdgeInsets = .init(top: 12, left: 12, bottom: 12, right: 12),
                 font: UIFont? = nil,
-                dimColor: UIColor = UIColor.black.withAlphaComponent(0.75),
+                dimColor: UIColor = UIColor.clear,
                 initialPosition: HoverPosition = .bottomRight,
                 allowedPositions: Set<HoverPosition> = .all) {
         

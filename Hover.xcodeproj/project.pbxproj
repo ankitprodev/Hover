@@ -27,6 +27,7 @@
 		209DED7F22DA82D300B869AC /* HoverItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DED7E22DA82D300B869AC /* HoverItemView.swift */; };
 		209DED8122DA845600B869AC /* UIStackView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DED8022DA845600B869AC /* UIStackView+Add.swift */; };
 		20D3C01722DA28AC000664C8 /* UIView+Decorators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D3C01622DA28AC000664C8 /* UIView+Decorators.swift */; };
+		BD48480F2C41035400097CDF /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48480E2C41035400097CDF /* PaddedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		209DED8022DA845600B869AC /* UIStackView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Add.swift"; sourceTree = "<group>"; };
 		20D3C01622DA28AC000664C8 /* UIView+Decorators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Decorators.swift"; sourceTree = "<group>"; };
 		20FB2C6222D7E82300D933D2 /* Hover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD48480E2C41035400097CDF /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				209DED7322DA82A300B869AC /* HoverView.swift */,
 				209DED7E22DA82D300B869AC /* HoverItemView.swift */,
 				2061689F22DE7F8D003A39C8 /* DimView.swift */,
+				BD48480E2C41035400097CDF /* PaddedLabel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				20427AB722D90CBC007C5ED0 /* UISpringTimingParameters+Init.swift in Sources */,
 				209DED7922DA82A300B869AC /* HoverButton.swift in Sources */,
 				209DED7A22DA82A300B869AC /* HoverView.swift in Sources */,
+				BD48480F2C41035400097CDF /* PaddedLabel.swift in Sources */,
 				209DED6622DA6D1B00B869AC /* NSObject+Create.swift in Sources */,
 				207F0EAA22DBBAD70009ED1E /* Anchor.swift in Sources */,
 			);

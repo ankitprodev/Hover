@@ -18,8 +18,9 @@ class HoverItemView: UIStackView {
     
     // MARK: Outlets
     private let button: HoverButton
-    private let label: UILabel = .create {
+    private let label: PaddedLabel = .create {
         $0.textColor = .white
+        $0.textInsets = UIEdgeInsets(top: 4, left: 8, bottom: 4, right: 8)
     }
     
     // MARK: Properties
@@ -40,8 +41,11 @@ class HoverItemView: UIStackView {
         if let font = configuration.font {
             self.label.font = font
         }
-        
+        self.label.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        self.label.layer.cornerRadius = 8.0
+        self.label.layer.masksToBounds = true
         self.label.text = item.title
+       
 
         super.init(frame: .zero)
         configure(with: configuration)
@@ -101,10 +105,10 @@ private extension HoverItemView {
     func adapt(to orientation: Orientation.X) {
         switch orientation {
         case .leftToRight:
-            label.textAlignment = .left
+            label.textAlignment = .center
             add(arrangedViews: button, label)
         case .rightToLeft:
-            label.textAlignment = .right
+            label.textAlignment = .center
             add(arrangedViews: label, button)
         }
     }
